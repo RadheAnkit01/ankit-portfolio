@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankit Raj | Portfolio</title>
+    <meta name="description"
+        content="Ankit Raj – Web & App Developer portfolio showcasing projects, skills, and experience." />
+    <meta name="author" content="Ankit Raj" />
+    <meta name="theme-color" content="#0f172a" />
+
+
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#">
+                <h1 class="logo">Ankit Raj</h1>
+            </a>
+            <nav>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero container">
+        <div class="hero-grid">
+            <div class="hero-text">
+                <h2>B.Tech CSE • Web & App Development Enthusiast</h2>
+                <p>I build responsive, scalable web applications with clean and maintainable code.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#" class="btn outline">GitHub</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img id="hero-image" src="assets/images/profile.png" alt="Ankit Raj" />
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container reveal">
+        <h2 class="section-title">Projects</h2>
+        <div id="projects-grid" class="projects-grid">
+            <!-- injected by JS -->
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container reveal">
+        <h2 class="section-title">Skills</h2>
+        <div id="skills-container" class="skills-container">
+            <!-- injected by JS -->
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container reveal">
+        <h2 class="section-title">Contact</h2>
+        <div class="all-contact">
+            <div class="contact-card">
+                <div class="contact-icon">✉️</div>
+
+                <div class="contact-info">
+                    <p class="contact-label">Email</p>
+                    <a href="mailto:radheankit110031@gmail.com" class="contact-link">
+                        Write mail
+                    </a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">📞</div>
+
+                <div class="contact-info">
+                    <p class="contact-label">Phone</p>
+                    <a href="tel:+917903707134" class="contact-link">
+                        Call now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Thanks  -->
+    <section class="thanks-section reveal">
+        <h2 class="thanks-title">Thanks for visiting ✨</h2>
+        <p class="thanks-subtitle">
+            I appreciate you taking the time to explore my work.
+        </p>
+    </section>
+
+
+
+    <footer class="footer">
+        <p>© 2026 Ankit Raj</p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+
+    <div id="project-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+
+            <h2 id="modal-title"></h2>
+
+            <p id="modal-description"></p>
+
+            <div id="modal-gallery" class="modal-gallery"></div>
+
+            <div id="modal-tech" class="modal-tech"></div>
+
+            <div class="modal-links">
+                <a id="modal-github" target="_blank">GitHub</a>
+                <a id="modal-live" target="_blank">Live Demo</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
