@@ -382,7 +382,18 @@
   font-weight: 600;
   border: 1px solid transparent;
 }
-.skill-card.frontend .skill-tags span {
+
+.skill-card {
+  --skill-color: 56,189,248;
+}
+
+.skill-tags span {
+  background: rgba(var(--skill-color), 0.12);
+  color: rgb(var(--skill-color));
+  border-color: rgba(var(--skill-color), 0.4);
+}
+
+/* .skill-card.frontend .skill-tags span {
   background: rgba(56, 189, 248, 0.12);
   color: #38bdf8;
   border-color: rgba(56, 189, 248, 0.4);
@@ -401,7 +412,7 @@
   background: rgba(249, 115, 22, 0.12);
   color: #f97316;
   border-color: rgba(249, 115, 22, 0.4);
-}
+} */
 
 
 

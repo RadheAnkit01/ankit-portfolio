@@ -3,6 +3,10 @@ import { skills } from "../data/skills.js";
 import { initScrollReveal } from "./animation.js";
 import "../js/projectModal.js";
 
+
+
+// script for skills section
+
 document.addEventListener("DOMContentLoaded", () => {
   renderProjects();
 
@@ -13,25 +17,18 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  const skillIcons = {
-    Frontend: "assets/images/skills/frontend.png",
-    Backend: "assets/images/skills/backend.png",
-    Tools: "assets/images/skills/tools.png",
-    Learning: "assets/images/skills/learning.png",
-  };
-
-  Object.entries(skills).forEach(([category, items]) => {
+  skills.forEach(skill => {
     const card = document.createElement("div");
-    card.className = `skill-card ${category.toLowerCase()}`;
+    card.className = `skill-card ${skill.colorClass}`;
 
     card.innerHTML = `
       <div class="skill-icon">
-        <img src="${skillIcons[category]}" alt="${category}" />
+        <img src="${skill.icon}" alt="${skill.title}" />
       </div>
       <div class="skill-content">
-        <h3>${category}</h3>
+        <h3>${skill.title}</h3>
         <div class="skill-tags">
-          ${items.map(skill => `<span>${skill}</span>`).join("")}
+          ${skill.items.map(item => `<span>${item}</span>`).join("")}
         </div>
       </div>
     `;
@@ -41,6 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   initScrollReveal();
 });
+
+
+
 
 
 // script for hero images
@@ -70,6 +70,9 @@ if (heroImg) {
     }, 400);
   }, 4500);
 }
+
+
+
 
 
 
