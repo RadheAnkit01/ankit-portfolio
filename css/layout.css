@@ -72,6 +72,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+
+}
+@media (max-width: 600px) {
+  .hero {
+    padding-top: 40px;
+  }
 }
 
 .hero-text {
@@ -188,18 +194,8 @@
 }
 
 
-
-
-
-
 .section {
   padding: 4rem 0;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
 }
 
 
