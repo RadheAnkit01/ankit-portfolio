@@ -18,13 +18,12 @@ export function openProjectModal(project) {
   });
 
   gallery.appendChild(img);
-});
+  });
 
   document.getElementById("modal-tech").textContent =
     "Technologies: " + project.tech.join(", ");
 
-  document.getElementById("modal-github").href = project.github;
-  document.getElementById("modal-live").href = project.live;
+  renderModalButtons(project.buttons);
 
   modal.classList.remove("hidden");
   document.body.style.overflow = "hidden";
@@ -82,3 +81,23 @@ document.addEventListener("keydown", e => {
     closeImageViewer();
   }
 });
+
+
+
+
+function renderModalButtons(buttons) {
+  const container = document.getElementById("modal-links");
+  container.innerHTML = "";
+
+  if (!buttons || buttons.length === 0) return;
+
+  buttons.forEach(btn => {
+    const a = document.createElement("a");
+    a.textContent = btn.label;
+    a.href = btn.link;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+
+    container.appendChild(a);
+  });
+}

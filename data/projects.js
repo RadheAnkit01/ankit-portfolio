@@ -14,6 +14,16 @@ export const projects = [
     "assets/images/wallpaper flutter/options.png",
   ],
   github: "https://github.com/RadheAnkit01/Wallpaper-App-Flutter.git",
-  live: "#"
+  live: "#",
+  buttons: [
+    {
+      label: "GitHub",
+      link: "https://github.com/RadheAnkit01/Wallpaper-App-Flutter.git"
+    },
+    // {
+    //   label: "Live Demo",
+    //   link: "#"
+    // }
+  ]
 }
 ];
