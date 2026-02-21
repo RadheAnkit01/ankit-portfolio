@@ -1,44 +1,19 @@
 export const projects = [
+  
   {
-    id: "portfolio",
-    title: "Portfolio Website",
-    shortDescription:
-      "A responsive personal portfolio built with modern web technologies.",
-    description:
-      "This portfolio showcases my projects, skills, and experience. It focuses on clean UI, responsive layout, accessibility, and performance.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    images: [
-      "assets/images/amazon orange theme banner 1.jpg",
-      "assets/images/amazon orange theme banner 2.jpg",
-      "assets/images/amazon orange theme banner 3.jpg",
-      "assets/images/amazon orange theme banner 4.jpg",
-      "assets/images/amazon orange theme banner 5.jpg",
-      "assets/images/amazon orange theme banner 6.jpg",
-      "assets/images/amazon orange theme banner 7.jpg",
-      "assets/images/amazon orange theme banner 8.jpg",
-    ],
-    github: "#",
-    live: "#"
-  },
-  {
-    id: "task-manager",
-    title: "Task Manager",
-    shortDescription:
-      "A simple JavaScript-based task management application.",
-    description:
-      "This project allows users to add, delete, and manage tasks efficiently using vanilla JavaScript.",
-    tech: ["JavaScript"],
-    images: [
-      "assets/images/amazon orange theme banner 1.jpg",
-      "assets/images/amazon orange theme banner 2.jpg",
-      "assets/images/amazon orange theme banner 3.jpg",
-      "assets/images/amazon orange theme banner 4.jpg",
-      "assets/images/amazon orange theme banner 5.jpg",
-      "assets/images/amazon orange theme banner 6.jpg",
-      "assets/images/amazon orange theme banner 7.jpg",
-      "assets/images/amazon orange theme banner 8.jpg",
-    ],
-    github: "#",
-    live: "#"
-  }
+  id: "Wallpaper App - Flutter",
+  title: "Wallpaper App using Pexels API",
+  shortDescription:
+    "A cross-platform wallpaper application built with Flutter using the Pexels Photo API.",
+  description:
+    "A Flutter-based wallpaper application that fetches high-quality images from the Pexels API. The app supports downloading wallpapers on both platforms, with full wallpaper setting functionality on Android (Home Screen, Lock Screen, or both). On iOS, due to system restrictions, users can download wallpapers only. The project focuses on API integration, platform-specific permissions, and real-device testing.",
+  tech: ["Flutter", "Dart", "Pexels API"],
+  images: [
+    "assets/images/wallpaper flutter/home.png",
+    "assets/images/wallpaper flutter/fullscreen.png",
+    "assets/images/wallpaper flutter/options.png",
+  ],
+  github: "https://github.com/RadheAnkit01/Wallpaper-App-Flutter.git",
+  live: "#"
+}
 ];
