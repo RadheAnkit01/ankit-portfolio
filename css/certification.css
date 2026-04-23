@@ -1,0 +1,146 @@
+/* GRID */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* CARD */
+.cert-card {
+  padding: 1.5rem;
+  border-radius: 16px;
+
+  background: linear-gradient(135deg, #020617, #020617cc);
+  border: 1px solid #1e293b;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  transition: all 0.35s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent);
+
+  box-shadow:
+    0 20px 45px rgba(56, 189, 248, 0.25),
+    inset 0 0 0 1px rgba(56, 189, 248, 0.35);
+}
+
+.cert-title {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.cert-org {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.cert-date {
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+
+/* BUTTON */
+.cert-btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  background: var(--accent);
+  color: #020617;
+
+  border: none;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.cert-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* MODAL */
+.cert-modal {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(2, 6, 23, 0.9);
+  backdrop-filter: blur(6px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 3000;
+}
+
+.cert-modal.hidden {
+  display: none;
+}
+
+.cert-modal-content {
+  position: relative;
+
+  max-width: 800px;
+  width: 90%;
+  min-height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+  overflow: hidden;
+
+  border: 1px solid #1e293b;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8);
+
+  background: #020617;
+}
+
+.cert-modal-content img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+/* CLOSE */
+.cert-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  border: none;
+
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+  font-size: 1.4rem;
+
+  cursor: pointer;
+}
+
+.cert-close:hover {
+  background: #ef4444;
+  color: #020617;
+}
+
+/* FALLBACK */
+.cert-fallback {
+  color: #94a3b8;
+  font-size: 14px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}

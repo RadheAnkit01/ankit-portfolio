@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/components.css" />
     <link rel="stylesheet" href="css/animations.css" />
     <link rel="stylesheet" href="css/fullscreen_image.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+    <link rel="stylesheet" href="css/certification.css" />
 </head>
 
 <body>
@@ -28,6 +30,7 @@
             </a>
             <nav>
                 <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
                 <a href="#skills">Skills</a>
                 <a href="#contact">Contact</a>
             </nav>
@@ -68,6 +71,38 @@
         </div>
     </section>
 
+    <!-- Certification -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid" id="certContainer"></div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="certModal" class="cert-modal hidden">
+        <div class="cert-modal-content">
+            <button class="cert-close" id="certClose">&times;</button>
+
+            <img id="certImage" src="" alt="Certificate" />
+
+            <div id="certFallback" class="cert-fallback hidden">
+                Certificate preview not available
+            </div>
+        </div>
+    </div>
+
+    <!-- timeline -->
+    <section id="timeline" class="section">
+        <div class="container">
+            <h2 class="section-title">My College Journey</h2>
+
+            <div class="timeline-wrapper">
+                <div class="timeline" id="timelineContainer"></div>
+            </div>
+        </div>
+    </section>
+
     <!-- CONTACT -->
     <section id="contact" class="section container reveal">
         <h2 class="section-title">Contact</h2>
@@ -94,6 +129,8 @@
             </div>
         </div>
     </section>
+
+
     <!-- Thanks  -->
     <section class="thanks-section reveal">
         <h2 class="thanks-title">Thanks for visiting ✨</h2>
@@ -132,6 +169,11 @@
 
     <canvas id="cursor-canvas"></canvas>
     <script type="module" src="js/main.js"></script>
+    <script src="data/certificationData.js"></script>
+    <script src="js/certification.js"></script>
+    <script src="data/timelineData.js"></script>
+    <script src="js/timeline.js"></script>
+
 
 </body>
 
