@@ -4,25 +4,32 @@ export const skills = [
     title: "Frontend",
     icon: "assets/images/skills/frontend.png",
     colorClass: "frontend",
-    items: ["HTML", "CSS", "JavaScript", "Flutter"]
+    items: ["HTML", "CSS", "Flutter"]
   },
   {
     id: "backend",
     title: "Backend",
     icon: "assets/images/skills/backend.png",
     colorClass: "backend",
-    items: ["JavaScript", "Firebase","sqlite", "shared preference", ]
+    items: ["Firebase", "Superbase" ]
   },
   {
     id: "tools",
     title: "Tools",
     icon: "assets/images/skills/tools.png",
     colorClass: "tools",
-    items: ["Git", "GitHub", "VS Code", "Android Studio"]
+    items: ["Git", "VS Code", "Android Studio"]
+  },
+  {
+    id: "database",
+    title: "Database",
+    icon: "assets/images/skills/database.png",
+    colorClass: "database",
+    items: ["SQLite", "PostgreSQL", "MongoDB","Shared Preference"]
   },
   {
     id: "programming",
-    title: "Programming",
+    title: "Programming Languages",
     icon: "assets/images/skills/programming.png",
     colorClass: "programming",
     items: ["C", "C++", "Dart", "Java","Javascript","Python"]
@@ -40,6 +47,6 @@ export const skills = [
     title: "Others",
     icon: "assets/images/skills/others.png",
     colorClass: "others",
-    items: [ "Rest API", "Architecture"]
+    items: [ "Rest API", "Clean Architecture"]
   },
 ];

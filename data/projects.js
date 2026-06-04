@@ -1,5 +1,62 @@
 export const projects = [
   
+  
+  {
+    id: "Corona Stats Tracking App",
+    title: "Corona Stats Tracking App using API",
+    shortDescription:
+      "A corona statistics tracking apps of all country using api.",
+    description:
+      "A corona statistics tracking apps of all country using api and using mvvm architecture to make logic and ui independent to each other, used graph to show stats in percentage gor better understanding, added skeleton screen while fetching data.",
+    tech: ["MVVM", "API", "Pie Chart", "HTTP", "Shimmer"],
+    images: [
+      "assets/images/corona/corona1.png",
+      "assets/images/corona/corona2.png",
+      "assets/images/corona/corona3.png",
+      "assets/images/corona/corona4.png",
+      "assets/images/corona/corona5.png",
+    ],
+    github: "https://github.com/RadheAnkit01/Covid19-Tracker",
+    live: "#",
+    buttons: [
+      {
+        label: "GitHub",
+        link: "https://github.com/RadheAnkit01/Covid19-Tracker"
+      },
+      // {
+      //   label: "Live Demo",
+      //   link: "#"
+      // }
+    ]
+  },
+  {
+    id: "Notes - Flutter",
+    title: "MyNotes",
+    shortDescription:
+      "A Simple Notes Apps, Add, Update, View, Delete operation are allowed. Which are being saved locally.",
+    description:
+      "A Flutter-based Notes application that where you can add notes, update, view, delete notes, used provider to make it fast and responsive, Used Sqflite as database to save it locally on application document directory of the devices.",
+    tech: ["Flutter", "Dart", "Provider", "Path", "SQFlite"],
+    images: [
+      "assets/images/radhenotes/notes1.png",
+      "assets/images/radhenotes/notes2.png",
+      "assets/images/radhenotes/notes3.png",
+      "assets/images/radhenotes/notes4.png",
+      "assets/images/radhenotes/notes5.png",
+    ],
+    github: "https://github.com/RadheAnkit01/Notes-using-SQFlite---Database",
+    live: "#",
+    buttons: [
+      {
+        label: "GitHub",
+        link: "https://github.com/RadheAnkit01/Notes-using-SQFlite---Database"
+      },
+      // {
+      //   label: "Live Demo",
+      //   link: "#"
+      // }
+    ]
+  },
   {
     id: "Wallpaper App - Flutter",
     title: "Wallpaper App using Pexels API",

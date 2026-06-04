@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/fullscreen_image.css" />
     <link rel="stylesheet" href="css/timeline.css" />
     <link rel="stylesheet" href="css/certification.css" />
+    <link rel="stylesheet" href="css/gallery.css">
 </head>
 
 <body>
@@ -30,8 +31,10 @@
             </a>
             <nav>
                 <a href="#projects">Projects</a>
-                <a href="#certifications">Certifications</a>
                 <a href="#skills">Skills</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#timeline">Journey</a>
+                <a href="#gallery">MyGallery</a>
                 <a href="#contact">Contact</a>
             </nav>
         </div>
@@ -103,6 +106,18 @@
         </div>
     </section>
 
+
+    <!-- Gallery Section -->
+    <!-- GALLERY -->
+    <section id="gallery" class="section container reveal">
+        <h2 class="section-title">Gallery</h2>
+
+        <div id="gallery-grid" class="gallery-grid">
+            <!-- injected by JS -->
+        </div>
+    </section>
+
+
     <!-- CONTACT -->
     <section id="contact" class="section container reveal">
         <h2 class="section-title">Contact</h2>
@@ -167,12 +182,28 @@
         <img id="viewer-img" />
     </div>
 
+
+    <!-- Gallery Viewer -->
+    <div id="gallery-modal" class="gallery-modal hidden">
+        <button class="gallery-close">&times;</button>
+        <button class="gallery-nav gallery-prev">&#10094;</button>
+        <div class="gallery-viewer">
+            <img id="gallery-main-image" />
+            <div id="gallery-note" class="gallery-note"></div>
+            <div id="gallery-thumbnails" class="gallery-thumbnails"></div>
+        </div>
+        <button class="gallery-nav gallery-next">&#10095;</button>
+    </div>
+
+
     <canvas id="cursor-canvas"></canvas>
     <script type="module" src="js/main.js"></script>
     <script src="data/certificationData.js"></script>
     <script src="js/certification.js"></script>
     <script src="data/timelineData.js"></script>
     <script src="js/timeline.js"></script>
+    <script src="data/galleryData.js"></script>
+    <script src="js/gallery.js"></script>
 
 
 </body>
