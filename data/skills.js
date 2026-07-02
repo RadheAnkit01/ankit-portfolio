@@ -18,7 +18,7 @@ export const skills = [
     title: "Tools",
     icon: "assets/images/skills/tools.png",
     colorClass: "tools",
-    items: ["Git", "VS Code", "Android Studio"]
+    items: ["Git", "VS Code", "Android Studio", "IntelliJ IDEA", "Docker",]
   },
   {
     id: "database",

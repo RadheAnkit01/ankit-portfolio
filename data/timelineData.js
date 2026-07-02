@@ -12,7 +12,7 @@ const timelineData = [
     ]
   },
   {
-    date: "Feb 2026 - Currently",
+    date: "Feb 2026 - June 2026",
     semester: "Semester 2",
     skills: [
       "OOPs with Java",
@@ -21,6 +21,18 @@ const timelineData = [
       "Database Management System",
       "Advanced Javascript",
       "Advanced English Communication"
+    ]
+  },
+  {
+    date: "Next from August 2026",
+    semester: "Semester 3",
+    skills: [
+      "Operating System",
+      "Java Spring Boot",
+      "Data Structures & Algorithm Advanced",
+      "Python Data Science",
+      "Data Visualization using Excel & PowerBI",
+      "Essential Language Skills"
     ]
   },
   

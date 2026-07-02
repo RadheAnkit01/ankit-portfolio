@@ -4,7 +4,7 @@ const contactData = [
     icon: `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
 <path fill="#fff" d="M4.9,43.3l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5c5.1,0,9.8,2,13.4,5.6	C41,14.2,43,18.9,43,24c0,10.5-8.5,19-19,19c0,0,0,0,0,0h0c-3.2,0-6.3-0.8-9.1-2.3L4.9,43.3z"></path><path fill="#fff" d="M4.9,43.8c-0.1,0-0.3-0.1-0.4-0.1c-0.1-0.1-0.2-0.3-0.1-0.5L7,33.5c-1.6-2.9-2.5-6.2-2.5-9.6	C4.5,13.2,13.3,4.5,24,4.5c5.2,0,10.1,2,13.8,5.7c3.7,3.7,5.7,8.6,5.7,13.8c0,10.7-8.7,19.5-19.5,19.5c-3.2,0-6.3-0.8-9.1-2.3	L5,43.8C5,43.8,4.9,43.8,4.9,43.8z"></path><path fill="#cfd8dc" d="M24,5c5.1,0,9.8,2,13.4,5.6C41,14.2,43,18.9,43,24c0,10.5-8.5,19-19,19h0c-3.2,0-6.3-0.8-9.1-2.3	L4.9,43.3l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5 M24,43L24,43L24,43 M24,43L24,43L24,43 M24,4L24,4C13,4,4,13,4,24	c0,3.4,0.8,6.7,2.5,9.6L3.9,43c-0.1,0.3,0,0.7,0.3,1c0.2,0.2,0.4,0.3,0.7,0.3c0.1,0,0.2,0,0.3,0l9.7-2.5c2.8,1.5,6,2.2,9.2,2.2	c11,0,20-9,20-20c0-5.3-2.1-10.4-5.8-14.1C34.4,6.1,29.4,4,24,4L24,4z"></path><path fill="#40c351" d="M35.2,12.8c-3-3-6.9-4.6-11.2-4.6C15.3,8.2,8.2,15.3,8.2,24c0,3,0.8,5.9,2.4,8.4L11,33l-1.6,5.8	l6-1.6l0.6,0.3c2.4,1.4,5.2,2.2,8,2.2h0c8.7,0,15.8-7.1,15.8-15.8C39.8,19.8,38.2,15.8,35.2,12.8z"></path><path fill="#fff" fill-rule="evenodd" d="M19.3,16c-0.4-0.8-0.7-0.8-1.1-0.8c-0.3,0-0.6,0-0.9,0	s-0.8,0.1-1.3,0.6c-0.4,0.5-1.7,1.6-1.7,4s1.7,4.6,1.9,4.9s3.3,5.3,8.1,7.2c4,1.6,4.8,1.3,5.7,1.2c0.9-0.1,2.8-1.1,3.2-2.3	c0.4-1.1,0.4-2.1,0.3-2.3c-0.1-0.2-0.4-0.3-0.9-0.6s-2.8-1.4-3.2-1.5c-0.4-0.2-0.8-0.2-1.1,0.2c-0.3,0.5-1.2,1.5-1.5,1.9	c-0.3,0.3-0.6,0.4-1,0.1c-0.5-0.2-2-0.7-3.8-2.4c-1.4-1.3-2.4-2.8-2.6-3.3c-0.3-0.5,0-0.7,0.2-1c0.2-0.2,0.5-0.6,0.7-0.8	c0.2-0.3,0.3-0.5,0.5-0.8c0.2-0.3,0.1-0.6,0-0.8C20.6,19.3,19.7,17,19.3,16z" clip-rule="evenodd"></path>
 </svg>`,
-    username: "+91 7903707134",
+    username: "@radheankit",
     link: "https://wa.me/917903707134",
     buttonText: "Chat Now"
   },
@@ -12,10 +12,7 @@ const contactData = [
 
   {
     name: "Email",
-    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-  <path d="M1.5 4.5h21v15h-21z" fill="none"/>
-  <path d="M21 6.75V18a.75.75 0 0 1-.75.75H18V9.94l-6 4.5-6-4.5v8.81H3.75A.75.75 0 0 1 3 18V6.75l9 6.75 9-6.75z"/>
-</svg>`,
+    icon: `<img src="/assets/images/skills/gmail.png" alt="M" width = "50" style = "padding-top: 1px">`,
     username: "radheankit.dev@gmail.com",
     link: "https://mail.google.com/mail/u/0/?fs=1&to=radheankit.dev@gmail.com&tf=cm",
     buttonText: "Send Email"
@@ -37,9 +34,7 @@ const contactData = [
 
   {
     name: "LinkedIn",
-    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-  <path d="M20.447 20.452H16.89V14.87c0-1.332-.026-3.045-1.856-3.045-1.857 0-2.141 1.45-2.141 2.948v5.679H9.337V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.37-1.85 3.604 0 4.269 2.372 4.269 5.455v6.286zM5.337 7.433a2.063 2.063 0 1 1 0-4.126 2.063 2.063 0 0 1 0 4.126zM7.119 20.452H3.556V9h3.563v11.452z"/>
-</svg>`,
+    icon: `<img src="/assets/images/skills/linkedin.png" alt="M" width = "90" style = "padding-top: 1px">`,
     username: "linkedin.com/in/radheankit01",
     link: "https://linkedin.com/in/radheankit01",
     buttonText: "Connect"
@@ -49,13 +44,7 @@ const contactData = [
   
   {
     name: "LeetCode",
-    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
-    <path fill="#FFA116"
-        d="M37.6 38.2L24.8 25.4c-.8-.8-.8-2 0-2.8L37.6 9.8c.8-.8 2-.8 2.8 0s.8 2 0 2.8L29 24l11.4 11.4c.8.8.8 2 0 2.8-.8.8-2 .8-2.8 0z"/>
-    <path fill="#B3B3B3"
-        d="M20.7 44.5c-.5 0-1-.2-1.4-.6L5.5 30.1c-3-3-3-7.9 0-10.9L19.3 5.4c.8-.8 2-.8 2.8 0s.8 2 0 2.8L8.3 22c-1.4 1.4-1.4 3.7 0 5.1l13.8 13.8c.8.8.8 2 0 2.8-.4.4-.9.6-1.4.6z"/>
-    <path fill="#000000"
-        d="M44.5 27H19c-1.1 0-2-.9-2-2s.9-2 2-2h25.5c1.1 0 2 .9 2 2s-.9 2-2 2z"/></svg>`,
+    icon: `<img src="/assets/images/skills/leetcode.png" alt="LC" width = "50" style = "padding-top: 8px">`,
     username: "leetcode.com/radheankit",
     link: "https://leetcode.com/radheankit",
     buttonText: "View Profile"
