@@ -12,7 +12,7 @@ const contactData = [
 
   {
     name: "Email",
-    icon: `<img src="/assets/images/skills/gmail.png" alt="M" width = "50" style = "padding-top: 1px">`,
+    icon: `<img src="./assets/images/skills/gmail.png" alt="M" width = "50" style = "padding-top: 1px">`,
     username: "radheankit.dev@gmail.com",
     link: "https://mail.google.com/mail/u/0/?fs=1&to=radheankit.dev@gmail.com&tf=cm",
     buttonText: "Send Email"
@@ -34,7 +34,7 @@ const contactData = [
 
   {
     name: "LinkedIn",
-    icon: `<img src="/assets/images/skills/linkedin.png" alt="M" width = "90" style = "padding-top: 1px">`,
+    icon: `<img src="./assets/images/skills/linkedin.png" alt="LI" width = "90" style = "padding-top: 1px">`,
     username: "linkedin.com/in/radheankit01",
     link: "https://linkedin.com/in/radheankit01",
     buttonText: "Connect"
@@ -44,7 +44,7 @@ const contactData = [
   
   {
     name: "LeetCode",
-    icon: `<img src="/assets/images/skills/leetcode.png" alt="LC" width = "50" style = "padding-top: 8px">`,
+    icon: `<img src="./assets/images/skills/leetcode.png" alt="LC" width = "50" style = "padding-top: 8px">`,
     username: "leetcode.com/radheankit",
     link: "https://leetcode.com/radheankit",
     buttonText: "View Profile"
