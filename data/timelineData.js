@@ -24,7 +24,7 @@ const timelineData = [
     ]
   },
   {
-    date: "Next from August 2026",
+    date: "Currently Pursuing",
     semester: "Semester 3",
     skills: [
       "Operating System",
